@@ -1,8 +1,8 @@
 import { createServer } from "node:http";
 
-const branch = "main";
-const background = "#1d4ed8";
-const message = "Doktest demo — main";
+const branch = "doktest";
+const background = "#15803d";
+const message = "Doktest demo — doktest";
 const port = Number(process.env.PORT ?? 3000);
 
 const page = `<!doctype html>
