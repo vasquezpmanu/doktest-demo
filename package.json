@@ -1,0 +1,14 @@
+{
+  "name": "doktest-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A tiny Docker-ready app for testing Git branch deployments with Mini-Dokploy.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs"
+  }
+}
